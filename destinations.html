@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villes du Brésil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 1rem;
+            background-color: #0078d7;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .city-container {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: space-between; 
+            padding: 2rem;
+            gap: 1rem; 
+        }
+        .city {
+            flex: 1 0 22%; 
+            min-width: 200px; 
+            max-width: 25%;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .city:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .city h2 {
+            font-size: 1.5rem;
+            color: #0078d7;
+            margin-bottom: 0.5rem;
+        }
+        .city p {
+            font-size: 1rem;
+            color: #555;
+            margin: 0;
+        }
+        .city img {
+            width: 200px; 
+            height: 150px;
+            object-fit: cover; 
+            display: block; 
+            margin: auto;
+            border-radius: 5px; 
+        }
+
+           </style>
+</head>
+<body>
+    <header>
+        <h1>Villes populaires d'Europe</h1>
+    </header>
+    <main>
+        <section class="city-container">
+            <div class="city">
+                <img src="paris 1.webp" alt="Rio de Janeiro">
+                <h2>France</h2>
+                <p>Connue pour Paris, ses monuments célèbres comme la Tour Eiffel, son art, sa gastronomie, et sa culture romantique.</p>
+            </div>
+            <div class="city">
+                <img src="florence1.jpg" alt="Rio de Janeiro">
+                <h2>Italie</h2>
+                <p> Célèbre pour ses villes historiques comme Rome et Florence, ses ruines antiques, sa cuisine, et son art de la Renaissance.</p>
+            </div>
+            <div class="city">
+                <img src="barcelone 2.jpg" alt="Rio de Janeiro">
+                <h2>Espagne</h2>
+                <p>Réputée pour Barcelone, ses plages, son architecture de Gaudí, et son ambiance festive.</p>
+            </div>
+            <div class="city">
+                <img src="rouyame.jpg" alt="Rio de Janeiro">
+                <h2>Royaume-Uni</h2>
+                <p> Londres offre des monuments emblématiques comme le Big Ben, une culture théâtrale riche, et des pubs traditionnels.</p>
+            </div>
+            <div class="city">
+                <img src="grece1.jpg" alt="Rio de Janeiro">
+                <h2>Grèce </h2>
+                <p>Connu pour ses îles pittoresques, son histoire antique, et ses paysages à couper le souffle.</p>
+            </div>
+            <div class="city">
+                <img src="suisse1.jpg" alt="Rio de Janeiro">
+                <h2>Suisse</h2>
+                <p> Célèbre pour ses montagnes alpines, ses lacs cristallins, et son chocolat de renommée mondiale.</p>
+            </div>
+            
+        </section>
+    </main>
+    <header>
+        <h1>Villes populaires d'Asie</h1>
+    </header>
+    <main>
+        <section class="city-container">
+            <div class="city">
+                <img src="chine1.jpg" alt="Rio de Janeiro">
+                <h2>chine </h2>
+                <p> Riche en histoire, célèbre pour la Grande Muraille, la Cité Interdite, et sa cuisine variée.</p>
+            </div>
+            <div class="city">
+                <img src="emarats arabe 1.jpg" alt="Rio de Janeiro">
+                <h2>emirats arabes unis</h2>
+                <p> Abritant Dubaï, avec son architecture futuriste, ses centres commerciaux gigantesques, et ses plages luxueuses.</p>
+            </div>
+            <div class="city">
+                <img src="indensie2.jpg" alt="Rio de Janeiro">
+                <h2>Indonésie</h2>
+                <p> Réputée pour Bali, ses plages paradisiaques, ses volcans, et sa culture unique.</p>
+            </div>
+            <div class="city">
+                <img src="japon2.jpg" alt="Rio de Janeiro">
+                <h2>japon </h2>
+                <p>Mélange de traditions anciennes et de modernité, célèbre pour ses temples, son sakura, et sa technologie avancée.</p>
+            </div>
+            <div class="city">
+                <img src="inde.jpg" alt="Rio de Janeiro">
+                <h2>Inde</h2>
+                <p>Connu pour le Taj Mahal, ses festivals colorés, et sa cuisine épicée.</p>
+            </div>
+            <div class="city">
+                <img src="thailande1.jpg" alt="Rio de Janeiro">
+                <h2>thailande</h2>
+                <p>Appréciée pour ses plages tropicales, sa cuisine de rue savoureuse, et ses temples dorés.</p>
+            </div>
+            
+        </section>
+    </main>
+    <header>
+        <h1>Villes populaires d'Amérique du Nord</h1>
+    </header>
+    <main>
+        <section class="city-container">
+            <div class="city">
+                <img src="cuba1.jpg" alt="Rio de Janeiro">
+                <h2>Cuba</h2>
+                <p>Connu pour ses plages de sable blanc, ses voitures anciennes, et sa musique salsa.</p>
+            </div>
+            <div class="city">
+                <img src="canada.jpg" alt="Rio de Janeiro">
+                <h2>Canada </h2>
+                <p>Célèbre pour ses paysages naturels, ses parcs nationaux, et sa diversité culturelle.</p>
+            </div>
+            <div class="city">
+                <img src="etats unis.jpg" alt="Rio de Janeiro">
+                <h2>etats unis</h2>
+                <p> Un pays varié, abritant New York, Hollywood, et de nombreux parcs nationaux.</p>
+            </div>
+            <div class="city">
+                <img src="haiti1.jpg" alt="Rio de Janeiro">
+                <h2>Haïti</h2>
+                <p> Reconnu pour son art vibrant, sa musique traditionnelle, et ses plages tropicales.
+                </p>
+            </div>
+            <div class="city">
+                <img src="mexique1.jpg" alt="Rio de Janeiro">
+                <h2>mexique</h2>
+                <p>Célèbre pour ses pyramides mayas, sa cuisine épicée, et ses plages animées.</p>
+            </div>
+            <div class="city">
+                <img src="salvador1.jpg" alt="Rio de Janeiro">
+                <h2>Salvador</h2>
+                <p>Connu pour ses volcans, ses plages propices au surf, et sa culture chaleureuse.</p>
+            </div>
+            
+        </section>
+    </main>
+    <header>
+        <h1>Villes populaires d'Amérique du Sud</h1>
+    </header>
+    <main>
+        <section class="city-container 4">
+            <div class="city">
+                <img src="argentine.jpeg" alt="Rio de Janeiro">
+                <h2>argentine</h2>
+                <p>Famosa pour le tango, ses paysages diversifiés, et sa capitale animée, Buenos Aires.</p>
+            </div>
+            <div class="city">
+                <img src="brazil1.jpg" alt="Rio de Janeiro">
+                <h2>bresil</h2>
+                <p>Abritant Rio de Janeiro, célèbre pour le carnaval, le Christ Rédempteur, et la plage de Copacabana.</p>
+            </div>
+            <div class="city">
+                <img src="chili1.jpg" alt="Rio de Janeiro">
+                <h2>chili</h2>
+                <p>Connu pour ses montagnes des Andes, ses vignobles, et l'île de Pâques.</p>
+            </div>
+            <div class="city">
+                <img src="pero1.jpg" alt="Rio de Janeiro">
+                <h2>perou</h2>
+                <p>Réputé pour le Machu Picchu, son patrimoine inca, et sa cuisine unique.</p>
+            </div>
+            <div class="city">
+                <img src="bolivie1.jpg" alt="Rio de Janeiro">
+                <h2>Bolivie</h2>
+                <p>Renommée pour le Salar d'Uyuni, ses marchés colorés, et sa culture andine.</p>
+            </div>
+            <div class="city">
+                <img src="colombie1.jpg" alt="Rio de Janeiro">
+                <h2>Colombie</h2>
+                <p>Célèbre pour ses paysages tropicaux, son café, et ses villes historiques comme Carthagène.
+                </p>
+            </div>
+            
+        </section>
+    </main>
+    <header>
+        <h1>Villes populaires d'Afrique</h1>
+    </header>
+    <main>
+        <section class="city-container">
+            <div class="city">
+                <img src="afrique1.jpg" alt="Rio de Janeiro">
+                <h2>afrique du sud</h2>
+                <p>Connu pour ses safaris, ses plages magnifiques, et le Cap de Bonne-Espérance.</p>
+            </div>
+            <div class="city">
+                <img src="egytpe1.jpg" alt="Rio de Janeiro">
+                <h2>egypte</h2>
+                <p>Famosa pour les pyramides de Gizeh, le Sphinx, et le Nil.</p>
+            </div>
+            <div class="city">
+                <img src="kenya.jpg" alt="Rio de Janeiro">
+                <h2>kenya</h2>
+                <p>Célèbre pour ses parcs nationaux, ses safaris, et sa culture swahilie.</p>
+            </div>
+            <div class="city">
+                <img src="maroc1.jpg" alt="Rio de Janeiro">
+                <h2>maroc</h2>
+                <p> Apprécié pour ses souks animés, ses palais, et ses dunes désertiques.
+                </p>
+            </div>
+            <div class="city">
+                <img src="negeria1.jpg" alt="Rio de Janeiro">
+                <h2>Nigeria</h2>
+                <p>Connu pour Nollywood, ses musiques afrobeat, et ses paysages variés.</p>
+            </div>
+            <div class="city">
+                <img src="tunsie.jpg" alt="Rio de Janeiro">
+                <h2>tunisie</h2>
+                <p>Réputée pour Carthage, ses plages méditerranéennes, et ses médinas historiques.</p>
+            </div>
+            
+        </section>
+    </main>
+    <header>
+        <h1>Villes populaires d'Océanie</h1>
+    </header>
+    <main>
+        <section class="city-container">
+            <div class="city">
+                <img src="australie1.jpg" alt="Rio de Janeiro">
+                <h2>australie</h2>
+                <p>Célèbre pour l'Opéra de Sydney, la Grande Barrière de Corail, et sa faune unique.</p>
+            </div>
+            <div class="city">
+                <img src="fidji 1.jpg" alt="Rio de Janeiro">
+                <h2>fidji</h2>
+                <p>Paradis tropical avec des plages isolées, des récifs coralliens, et une culture accueillante.
+                </p>
+            </div>
+            <div class="city">
+                <img src="mecronisie1.jpg" alt="Rio de Janeiro">
+                <h2>Micronésie</h2>
+                <p>Connu pour ses îles reculées, ses lagons turquoise, et ses sites de plongée.
+                    brésiliennes.</p>
+            </div>
+            <div class="city">
+                <img src="new zelande.jpg" alt="Rio de Janeiro">
+                <h2>nouvelle-zelande</h2>
+                <p> Appréciée pour ses paysages spectaculaires, ses films comme Le Seigneur des Anneaux, et sa culture maorie.</p>
+            </div>
+            <div class="city">
+                <img src="palau1.jpg" alt="Rio de Janeiro">
+                <h2>Palau</h2>
+                <p>Célèbre pour ses eaux cristallines, ses plages de sable blanc, et ses sites de plongée incroyables.</p>
+            </div>
+            <div class="city">
+                <img src="tuvalo1.jpg" alt="Rio de Janeiro">
+                <h2>Tuvalu</h2>
+                <p>Un petit archipel connu pour ses lagons tranquilles, sa culture polynésienne, et son isolement.</p>
+            </div>
+            
+        </section>
+    </main>
+    
+    
+    
+</body>
+</html>
